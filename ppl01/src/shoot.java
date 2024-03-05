@@ -17,6 +17,7 @@ public class shoot {
                 p1 b1 =b.get(i);
                 if (b1.line==ShootLine& Objects.equals(b1.color, "空")& !Objects.equals(b.get(i - 5).color, "空")){
                     b1.setColor(ba.color);
+                    del.d(i,b);
                     i=4;
                 }
             }
