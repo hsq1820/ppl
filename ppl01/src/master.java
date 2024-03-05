@@ -20,7 +20,7 @@ public class master {
                         System.out.println(ball.color);
                     }
                 }else {
-                    p1 ball = new p1(i,j,"空");
+                    p1 ball = new p1(i,j,"　");
                     b.add(ball);
                     if (j<5){
                         System.out.print(ball.color);
