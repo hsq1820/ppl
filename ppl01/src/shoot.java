@@ -7,7 +7,6 @@ public class shoot {
         p1 ba = new p1(11,3,master.colour());
         System.out.println(ba.color);
         Scanner sc = new Scanner(System.in);
-
         for (;;) {
             String pd = sc.next();
             if (pd.equals("s")){

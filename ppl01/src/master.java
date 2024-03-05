@@ -7,7 +7,6 @@ public class master {
 
         start(b);
         shoot.s(b);
-
     }
     public static void start(ArrayList<p1> b) {
         for (int i=1;i<10;i++){
