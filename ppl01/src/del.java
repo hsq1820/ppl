@@ -43,6 +43,8 @@ public class del {
             if (tode > 2 && p1.de == 1) {
                 p1.setColor("　");
             }
+        }
+        for (p1 p1 : b) {
             if (p1.de == 1) {
                 p1.setDe(0);
             }

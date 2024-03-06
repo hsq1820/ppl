@@ -19,14 +19,19 @@ public class shoot {
                     if (b1.line==ShootLine&&Objects.equals(b1.color, "　")&&(!Objects.equals(b.get(i - 5).color, "　")||b1.row==1)){
                         b1.setColor(ba.color);
                         del.d(i,b);
+                        push.upP();
+                        break;
                     }
                 }else {
                     if (b1.line==ShootLine&&Objects.equals(b1.color, "　")){
                         b1.setColor(ba.color);
                         del.d(i,b);
+                        push.upP();
+                        break;
                     }
                 }
             }
+            push.pu(b);
             for (p1 ball : b) {
                 if (ball.line < 5) {
                     System.out.print(ball.color);
