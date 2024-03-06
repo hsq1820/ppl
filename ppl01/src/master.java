@@ -4,7 +4,7 @@ import java.util.Random;
 public class master {
     public static void main(String[] args) {
         ArrayList<p1> b = new ArrayList<>();
-
+        System.out.print("welcome!\n按1~5发射，按0退出\n\n");
         start(b);
         shoot.s(b);
     }
