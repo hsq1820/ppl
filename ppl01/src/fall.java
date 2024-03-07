@@ -26,7 +26,7 @@ public class fall {
                             if (b.get(u).line != 5&&!b.get(u + 1).color.equals("　")&&(b.get(u+1).fa!=1)) {
                                 b.get(u + 1).setFa(1);
                             }
-                            if ((b.get(u+5).fa!=1)&&!b.get(u+5).color.equals("　")){
+                            if ((u<=b.size()-5)&&(b.get(u+5).fa!=1)&&!b.get(u+5).color.equals("　")){
                                 b.get(u+5).setFa(1);
                             }
                         }
